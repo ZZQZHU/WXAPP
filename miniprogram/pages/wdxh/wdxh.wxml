@@ -1,0 +1,10 @@
+<wxs src="../../gongju/words.wxs" module="m1"/>
+<view  wx:for="{{mytitles}}" wx:key="index">
+<view class="main">
+<image mode="scaleToFill" bindtap="wzzs" data-titleid="{{item._id}}" data-openid="{{item._openid}}" src="{{item.bigImg}}"></image>
+<view class="content">
+<text class="title">{{m1.words(item.title)}}</text>
+</view>
+</view>
+<view class="fgx"></view>
+</view>

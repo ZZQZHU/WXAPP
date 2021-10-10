@@ -1,0 +1,7 @@
+var words=function(word){
+  if(word.length>20){
+    word=word.substring(0,20)+'...'
+  }
+  return word;
+};
+module.exports.words=words;

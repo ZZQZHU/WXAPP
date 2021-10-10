@@ -1,0 +1,75 @@
+/* pages/fbwz/fbwz.wxss */
+.tupian{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.tianjia{
+  display: flex;
+  margin-bottom: 3px;
+}
+text{
+  font-size:18px;
+}
+.iconfont{
+  font-size: 25px;
+  color:#8a8a8a;
+}
+image{
+  border:3px black solid;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 3px 3px 2px #8076a3;
+}
+.neirong{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input{
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px black solid;
+  margin-bottom: 5px;
+  box-shadow: 3px 3px 2px #8076a3;
+  padding: 0 1rem;
+}
+textarea{
+  width: 80%;
+  border-radius: 10px;
+  border: 2px black solid;
+  box-shadow: 3px 3px 2px #8076a3;
+  padding: 0 1rem;
+}
+button {
+  background: #9ccc65;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px #8076a3;
+  margin-top: 10px;
+}
+button:active {
+  top: 2px;
+}
+button.shiny {
+  background: #9ccc65;
+  background: linear-gradient(-45deg, #9ccc65 50%, #cde5b2 60%, #9ccc65 70%);
+  background-size: 600% 100%;
+          animation: shine 10s infinite;
+          animation-delay: 0s;
+          animation-timing-function: linear;
+}
+@keyframes shine {
+  0% {
+    background-position-x: 400%;
+  }
+  50% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: -400%;
+  }
+}

@@ -1,0 +1,22 @@
+<view class="index">
+ <swiper class="swiper" indicator--dots="{{true}}"
+        autoplay="{{true}}" circular="{{true}}">
+        <block wx:for="{{imgUrls}}" wx:for-index="i" wx:key="index">
+        <block wx:if="{{i<5}}">
+         <swiper-item>
+           <image  mode="aspectFit" class="image" src="{{item.bigImg}}"></image>
+          </swiper-item>
+        </block>
+        </block>
+      </swiper>
+</view>
+<view class="content">
+<text class="content1">欢迎</text>
+<text class="content2">进入海洋知识学习社区</text>
+</view>
+<view class="sousuo">
+<form bindsubmit="formSubmit">
+  <input type="text" placeholder="请输入想要搜索内容" name="some"/>
+  <button formType="submit" >搜索</button>
+</form>
+</view>

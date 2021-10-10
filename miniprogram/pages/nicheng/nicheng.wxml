@@ -1,0 +1,3 @@
+<view><input type="text" value="{{nickName}}" bindinput="handletext"> </input></view>
+<button class="shiny" bindtap="handleBtn">修改昵称</button>
+

@@ -1,0 +1,68 @@
+/* pages/wzzs/wzzs.wxss */
+ .head-image {
+  width: 100%;
+  height: 400rpx;
+ }
+ .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content1{
+  display: flex;
+  flex-direction: row;
+}
+.content2{
+  display: flex;
+  flex-direction: row;
+}
+.touxiang{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border:2px #fcc307 solid;
+}
+.author{
+  align-self: center;
+  font-size: 35rpx;
+  color: #144a74;
+}
+ .const-text {
+  font-size: 30rpx;
+  align-self: center;
+  color: rgb(171, 212, 20);
+ }
+ 
+ .date {
+  font-size: 30rpx;
+  align-self: center;
+  color: rgba(247, 179, 7, 0.734);
+ }
+ .dianzan{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+ .active{
+  color: brown;
+}
+ .iconfont {
+   font-size: 20px;
+   margin-right: 20rpx;
+ }
+ .tbox{
+   width: 100%;
+  text-align: center;
+ }
+ .title {
+  font-size: 36rpx;
+  font-weight: 700;
+  margin-top: 30rpx;
+  letter-spacing: 2px;
+  color: #e41b1b;
+ }
+ .tool {
+  color: #666;
+  text-indent: 1em;
+  white-space: pre-wrap;
+ }

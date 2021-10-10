@@ -1,0 +1,47 @@
+/* pages/nicheng/nicheng.wxss */
+page{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+button {
+  background: #9ccc65;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px #8076a3;
+  margin-top: 10px;
+}
+button:active {
+  top: 2px;
+}
+button.shiny {
+  background: #9ccc65;
+  background: linear-gradient(-45deg, #9ccc65 50%, #cde5b2 60%, #9ccc65 70%);
+  background-size: 600% 100%;
+          animation: shine 10s infinite;
+          animation-delay: 0s;
+          animation-timing-function: linear;
+}
+@keyframes shine {
+  0% {
+    background-position-x: 400%;
+  }
+  50% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: -400%;
+  }
+}
+view{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+input{
+  width: 80%;
+  height: 50px;
+  padding: 0 1rem;
+  border: 3px black solid;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 3px 3px 2px #8076a3;
+}

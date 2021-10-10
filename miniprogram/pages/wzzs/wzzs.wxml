@@ -1,0 +1,13 @@
+<wxs src="../../gongju/loves.wxs" module="m2"/>
+<view ><image class="head-image" src="{{titledetail.bigImg}}"></image></view>
+<view class="container">
+  <view class="content1"><image class="touxiang" src="{{userPhoto}}"></image>
+  <text class="author">作者:{{nickName}}</text></view>
+  <view class="content2"><text class="const-text">发表于:</text>
+  <text class="date">{{titledetail.time}}</text></view>
+ </view>
+ <view class="dianzan">
+ <text class="iconfont icondianzan  {{zhuangtai==true?'active':''}}" data-id="{{titledetail._id}}" bindtap="dz">{{m2.sum(sum)}}</text></view>
+ <view class="tbox"><text class="title">{{titledetail.title}}</text></view>
+ <view class="tool"> <text class="detail">{{content}}</text> </view>
+

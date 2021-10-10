@@ -1,0 +1,50 @@
+/* miniprogram/pages/index/index.wxss */
+page{
+  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+swiper-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+image{
+  width:90%;
+  height: 140px;
+  border-radius: 5%;
+  border: 3px solid #35333c;
+  box-shadow: 1px 1px 1px #131124;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.content1{
+  font-family: serif;
+  color: red;
+  font-size: 40px;
+  font-weight:bold;
+}
+.content2{
+  color: #51056a;
+  font-size: 20px;
+}
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+input{
+  height: 40px;
+  border:2px solid #c5464a;
+	border-radius:5px;
+}
+button{
+  background:#c5464a;
+	border-radius:0 5px 5px 0;
+}

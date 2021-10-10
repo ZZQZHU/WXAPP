@@ -1,0 +1,17 @@
+<!--pages/fbwz/fbwz.wxml-->
+ <form bindsubmit="formSubmit" bindreset="formReset">   
+<view class="tupian">
+<view class="tianjia">
+<text>点击图标添加文章图片</text>
+<text bindtap='changeBigImg' class="iconfont icontianjia"></text>
+</view>
+<image mode="widthFix" src='{{bigImg}}'></image>
+</view> 
+<view class="neirong">
+<input type="text" class="input-text" name="title" placeholder="文章标题" />    
+<textarea name="content" placeholder="文章内容" maxlength="-1"></textarea>
+</view> 
+<button class="shiny" formType="submit">提交</button>    
+<button class="shiny" formType="reset">重置</button>   
+</form>  
+<!-- <text>因为个人发布的小程序，不能带有发布信息，支付等功能，只有企业才可以。所以演示不了发布文章的功能。因此删除。用户无法发布文章所以用户我的文章也为空</text> -->

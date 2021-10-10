@@ -1,0 +1,2 @@
+<button class="shiny" bindtap="handleBtn">修改头像</button>
+<view class="tupian"><image bindtap="handleUploadImage" src="{{userPhoto}}"></image></view>

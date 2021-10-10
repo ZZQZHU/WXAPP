@@ -1,0 +1,44 @@
+<view class="user">
+   <view class="info">
+      <image src="{{userPhoto}}"></image>
+       <text wx:if="{{logged}}">  欢迎您：{{nickName}}</text>
+      <button wx:else disabled="{{disabled}}"  bindtap="getUserProfile" >微信登录</button>
+  </view>
+  <view class="btn-area" wx:if="{{logged}}">
+    <navigator url="../touxiang/touxiang" open-type="navigate">
+      <view class="list">
+      <text class="iconfont icontouxiang"></text>
+        <text class="content">修改头像</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+<navigator url="../nicheng/nicheng" open-type="navigate">
+      <view class="list">
+      <text class="iconfont iconnicheng"></text>
+        <text class="content">修改昵称</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+    <navigator url="../wdwz/wdwz" open-type="navigate">
+      <view class="list">
+      <text class="iconfont iconwodewenzhang"></text>
+        <text class="content">我的文章</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+    <navigator url="../wdxh/wdxh" open-type="navigate">
+      <view class="list">
+      <text class="iconfont iconxihuan"></text>
+        <text class="content">我的喜欢</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+    <navigator url="../fbwz/fbwz" open-type="navigate">
+      <view class="list">
+      <text class="iconfont iconfabu"></text>
+        <text class="content">发表文章</text>
+        <text class="iconfont iconyoujiantou"></text>
+      </view>
+    </navigator>
+</view>
+</view>

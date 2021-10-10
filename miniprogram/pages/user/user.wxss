@@ -1,0 +1,52 @@
+.info{
+  height: 150rpx;
+  border: 2px #b4b5b6 solid;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  background-color:#e9ca94;
+  margin-bottom: 10px;
+}
+.info image{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px #33141e solid;
+  align-self: center;
+}
+button {
+  background: #9ccc65;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  align-self: center;
+}
+button:active {
+  top: 2px;
+}
+.info text{
+  margin-left: 150rpx;
+  align-self: center;
+  color: #2775b6;
+  font-size: 20px;
+  font-weight: 600;
+}
+.list{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content{
+  font-size: 18px;
+  flex: 2;
+  margin-left: 10px;
+}
+.iconfont{
+  font-size: 25px;
+  color: #8a8a8a;
+}
+.iconyoujiantou{
+  font-size: 12px;
+}

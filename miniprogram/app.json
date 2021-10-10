@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/read/read",
+    "pages/user/user",
+    "pages/touxiang/touxiang",
+    "pages/nicheng/nicheng",
+    "pages/wdwz/wdwz",
+    "pages/wdxh/wdxh",
+    "pages/wzzs/wzzs",
+    "pages/fbwz/fbwz",
+    "pages/sswz/sswz"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#61649f",
+    "navigationBarTitleText": "海洋知识学习社区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#815c94",
+    "list": [
+      {
+        "iconPath": "./images/tabbar/首页.png",
+        "selectedIconPath": "./images/tabbar/首页1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "./images/tabbar/阅读.png",
+        "selectedIconPath": "./images/tabbar/阅读1.png",
+        "pagePath": "pages/read/read",
+        "text": "阅读"
+      },
+      {
+        "iconPath": "./images/tabbar/我的.png",
+        "selectedIconPath": "./images/tabbar/我的1.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
