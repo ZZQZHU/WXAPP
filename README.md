@@ -60,7 +60,4 @@ pages是各页面（采用拼音首字母来命名各页面）如下图。各页
 
 ![](https://github.com/ZZQZHU/WXAPP/blob/main/readmeIMG/%E9%A1%B5%E9%9D%A2.png?raw=true)
 
-这个小程序供大家学习参考，如何部署已经尽量说的很详细了。如果觉得有用，麻烦各位哥哥姐姐弟弟妹妹动动发财的小手帮忙star一下。感谢感谢
-
-![](https://github.com/ZZQZHU/WXAPP/blob/main/readmeIMG/%E8%A1%A8%E6%83%85.jpeg?raw=true)
-
+这个小程序供大家学习参考，如何部署已经尽量说的很详细了。
